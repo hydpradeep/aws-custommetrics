@@ -1,5 +1,6 @@
 # custommetrics
 Create Custom metrics using cloudwatch agent
+
 #How to install a web Server - https://www.youtube.com/results?search_query=%23How+to+install+a+web+Server
 ```
 #!/bin/bash
@@ -27,7 +28,9 @@ sudo ./install auto
 sudo service codedeploy-agent start
 ```
 #How to setup CloudWatch Agent 
+
 cd ~
+
 wget https://s3.amazonaws.com/amazoncloudwatch-agent/amazon_linux/amd64/latest/amazon-cloudwatch-agent.rpm
 
 sudo rpm -U ./amazon-cloudwatch-agent.rpm
