@@ -1,6 +1,7 @@
 # custommetrics
 Create Custom metrics using cloudwatch agent
 #How to install a web Server - https://www.youtube.com/results?search_query=%23How+to+install+a+web+Server
+```
 #!/bin/bash
 sudo yum update -y
 sudo yum install -y httpd24 php72  php72-mysqlnd php72-mbstring
@@ -24,7 +25,7 @@ wget https://aws-codedeploy-eu-west-1.s3.amazonaws.com/latest/install
 chmod +x ./install
 sudo ./install auto
 sudo service codedeploy-agent start
-
+```
 #How to setup CloudWatch Agent 
 cd ~
 wget https://s3.amazonaws.com/amazoncloudwatch-agent/amazon_linux/amd64/latest/amazon-cloudwatch-agent.rpm
