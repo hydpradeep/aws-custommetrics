@@ -35,6 +35,7 @@ sudo rpm -U ./amazon-cloudwatch-agent.rpm
 sudo vi /opt/aws/amazon-cloudwatch-agent/bin/config.json
 
 #paste the content 
+```
 {
     "logs": {
         "logs_collected": {
@@ -59,5 +60,5 @@ sudo vi /opt/aws/amazon-cloudwatch-agent/bin/config.json
         }
     }
 }
-
+```
 sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json -s
